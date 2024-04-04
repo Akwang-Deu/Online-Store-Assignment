@@ -1,0 +1,350 @@
+navbar{
+   background-color:rgb(101,161,91);
+   display: flex;
+   gap: 20%;
+   justify-content: center;
+   color: white;
+   height: 100px;
+
+}
+#container{
+   display: flex;
+   justify-content: center;
+   gap: 5%;
+}
+h2{
+   font-style: italic;
+   font-size: xx-large;
+}
+.flower2{
+   height: 800px;
+   width:800px ;
+}
+.flower{
+   height: 400px;
+   width:400px ;
+}
+#basket{
+   display: flex;
+   font-size: x-large;
+
+}
+#container2{
+   display: flex;
+   font-size: x-large;
+}
+.flower3{
+   height:400px ;
+   width: 400px;
+}
+#container3{
+   align-items: center;
+}
+#bigcontainer{
+   display: flex;
+   gap: 3%;
+}
+.cactus{
+   height:400px ;
+   width:400px ;
+}
+#Sale{
+   display: flex;
+   font-size: x-large;
+}
+.Aloevera{
+   height: 400px;
+   width: 300px;
+}
+#houseplants{
+   display: flex;
+   font-size: x-large;
+
+}
+#potted{
+   display: flex;
+   font-size: large;
+}
+.photo3{
+   height:400px ;
+   width: 400px;
+}
+#bigdiv{
+   display: flex;
+   gap: 5%;
+}
+#navbar{
+   gap: 20%;
+   text-align: center;
+   font-size: x-large;
+
+}
+.text3{
+   text-align: left;
+}
+#plant1{
+   display: flex;
+   justify-content: center;
+}
+#plant2{
+  display: flex;
+  justify-content: center;
+}
+.photo1{
+   height: 300px;
+   width: 300px;
+}
+.photo2{
+   height: 300px;
+   width: 300px;
+}
+
+.image6{
+   height: 700px;
+   width: 500px;
+
+
+}
+#Allplants{
+   display: flex;
+   justify-content: center;
+   font-size: x-large;
+}
+button{
+   padding: 14px 40px;
+   background-color: rgb(110,168,32);
+   color: white;
+   border: solid 1px;
+   border-radius: 10px;
+}
+input{
+   padding:14px 40px ;
+}
+#words{
+   text-align: center;
+}
+.button{
+   padding:14px 40px ;
+}
+#context{
+   display: flex;
+   justify-content: center;
+   gap: 5%;
+   font-size: x-large;
+}
+.image24{
+   height: 800px;
+   width: 800px ;
+}
+#text{
+   text-align: center;
+   font-size: x-large;
+
+}
+.image1{
+   height: 300px;
+   width: 300px;
+}
+#images{
+  display: grid;
+   grid-template-columns: auto auto auto auto;
+   font-size: x-large;
+
+}
+#summer{
+   font-size: xx-large;
+}
+#photos{
+   height: 600px;
+   width: 600px;
+   display: flex;
+   font-size: x-large;
+
+}
+#content{
+   display: flex;
+   justify-content: center;
+   font-size: x-large;
+}
+.image15{
+   height: 400px;
+   width: 400px;
+
+}
+#Blog{
+   display: flex;
+   justify-content: center;
+   font-size: x-large;
+}
+.image20{
+   height: 200px;
+   width: 200px;
+   border-radius: 5%;
+}
+#word4{
+  text-align: center;
+
+}
+#photo{
+   text-align: center;
+   gap: 10%;
+
+}
+#text2{
+   text-align: center;
+   font-size: x-large;
+
+}
+span{
+color: green;
+}
+footer{
+   display: flex;
+   justify-content: center;
+   font-size: x-large;
+   gap: 5%;
+}
+@media screen and (min-width:320px) and (max-width:480px){
+   #bigcontainer{
+      display: grid;
+      flex-wrap: wrap;
+      
+   }
+   .flower2{
+      height: 400px;
+      width:400px ;
+   }
+   #basket{
+      display: grid;
+      font-size: large;
+   }
+   #container2{
+      display: grid;
+      font-size: large;
+      text-align: center;
+   }
+   #bigdiv{
+      display: grid;
+     
+   }
+   #Sale{
+      display: grid;
+      flex-wrap: wrap;
+      font-size: large;
+   }
+   #houseplants{
+      display: grid;
+      font-size: large;
+      text-align: center;
+   }
+   #potted{
+      display: grid;
+      font-size: large;
+      text-align: center;
+   }
+   .photo3{
+      height: 300px ;
+      width: 300px;
+   }
+   #navbar{
+      text-align: center;
+      font-size: large;
+      margin-top: 20%;
+   }
+   #Allplants{
+      display: grid;
+      font-size: large;
+      margin-top: 20%;
+   }
+   .image6{
+      height: 300px;
+      width: 300px;
+   }  
+   #plant1{
+      display: grid;
+      flex-wrap: wrap;
+   } 
+   #plant2{
+      display: grid;
+      flex-wrap: wrap;
+      
+   }
+   button{
+      padding: 10px 20px;
+      margin-bottom: 10%;
+   } 
+   #context{
+      display: grid;
+      font-size: large;
+      text-align: center;
+   
+   }
+   .image24{
+      height: 400px;
+      width: 400px ;
+   }
+   #text{
+      text-align: center;
+      font-size: large;
+   }
+   #images{
+      display: grid;
+      flex-wrap: wrap;
+       grid-template-columns: auto auto;
+       font-size: large;
+   }
+   .image1{
+      height: 100px;
+      width: 100px;
+   }
+   #content{
+      display: grid;
+     text-align: center;
+      font-size: large;
+   }
+   #Blog{
+      display: grid;
+      flex-wrap: wrap;
+      text-align: center;
+      font-size: large;
+   }
+   #text2{
+      text-align: center;
+      font-size: large;
+   }
+   #photos{
+      width: 300px ;
+      height: 300px;
+   }
+   footer{
+      display: grid;
+      justify-content: center;
+      font-size: large;
+     
+   }
+   .image15{
+      height: 200px;
+      width: 200px;
+     justify-content: center;
+   }
+   navbar{
+      justify-content: center;
+   }
+   #container{
+      text-align: center;
+   }
+   #basket{
+      font-size: large;
+      text-align: center;
+   }
+   #summer{
+      text-align: center;
+   }
+   .Sale{
+      text-align: center;
+      margin-top: 20%;
+   }
+}
+
+   
+
